@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UserTable</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header>
+    <h3>Enter your details</h3>
+  </header>
+    
+  <section>
+    <form class="box" autocomplete="off">
+      <!-- <h3>Enter your details</h3> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable" for="firstName">First Name</Label>
+          </div>
+          <div class="col-md-9">
+            <input type="text" autocomplete="off" class="tableColumn" name="" id="firstName" placeholder="enter your first name">
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable" for="lastName">Last Name</Label>
+          </div>
+          <div class="col-md-9">
+            <input type="text" class="tableColumn" name="" id="lastName" placeholder="enter your last name">
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable">Gender</Label>
+          </div>
+          <div class="col-md-9">
+        
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender">Male</label>
+    
+            <input type="radio" name="gender" id="gender" value="Female">
+            <label for="gender">Female</label>
+    
+            <input type="radio" name="gender" id="gender" value="Others">
+            <label for="gender">Others</label>
+            <br>
+            <small></small>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable">Favorite Food (Minimum 2) </Label>
+          </div>
+          <div class="col-md-9">
+        
+            <input type="checkbox" name="food" id="food" value="Briyani">
+            <label for="food">Briyani</label>
+            <input type="checkbox" name="food" id="food" value="Parotta">
+            <label for="food">Parotta</label>
+            <input type="checkbox" name="food" id="food" value="FriedRice">
+            <label for="food">Fried Rice</label>
+            <input type="checkbox" name="food" id="food" value="Pizza">
+            <label for="food">Pizza</label>
+            <input type="checkbox" name="food" id="food" value="CurdRice">
+            <label for="food">Curd Rice</label>
+            <br>
+            <small></small>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <label for="address" id="forTable">Address</label>
+          </div>
+          <div class="col-md-9">
+            <input type="text" class="tableColumn" name="" id="address" placeholder="enter your building name/ street name">
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable">Country</Label>
+          </div>
+          <div class="col-md-9">
+            <select id="country" onclick="getState()" required>
+              <option value="select" selected disabled>--Select Country--</option>
+            </select>
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable">State</Label>
+          </div>
+          <div class="col-md-9">
+            <select name="" id="state"  onclick="getCity()">
+              <option value="select" selected disabled>--Select State--</option>
+            </select>
+            <br>
+            <small></small>
+          </div>
+          
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <Label id="forTable">City</Label>
+          </div>
+          <div class="col-md-9">
+            <select name="" id="city">
+              <option value="select" selected disabled>--Select City--</option>
+            </select>
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <label for="pincode" id="forTable">Pincode</label>
+          </div>
+          <div class="col-md-9">
+            <input type="text" class="tableColumn" name="" id="pincode" required placeholder="enter your 6 digit pincode" style="width: 200px;">
+            <br>
+            <small></small>
+          </div>
+        </div>
+
+
+        <button type="reset" class="btn btn-primary" onclick="checkInput()" >Submit</button>
+      </div>
+    </form>
+  </section>
+  <div class="container record"></div>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
