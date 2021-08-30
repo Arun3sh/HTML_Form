@@ -105,18 +105,18 @@ header h3{
   align-items: center;
 }
 table{
-  width: 550px;
+  max-width: 550px;
   align-items: center;
   border: none;
   border-color: #3498db;
   margin-bottom: 50px;
 }
 #ansCol{
-  width: 300px;
+  max-width: 300px;
   padding-left: 10px;
 }
 
 #labelCol{
   padding-left: 10px;
-  width: 250px;
+  max-width: 250px;
 }
