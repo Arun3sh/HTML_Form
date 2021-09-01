@@ -1,126 +1,127 @@
-*{
-  font-family: sans-serif;
-  color: white;
+* {
+	font-family: sans-serif;
+	color: white;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  background: #191919;
+body {
+	margin: 0;
+	padding: 0;
+	background: #191919;
 }
 
-#firstNameLabel, #lastNameLabel{
-  width: 100px;
+#firstNameLabel,
+#lastNameLabel {
+	width: 100px;
 }
 
-label{
-  margin-right: 10px;
-  margin-bottom: 0;
+label {
+	margin-right: 10px;
+	margin-bottom: 0;
 }
 
-span, small{
-  color: red;
+span,
+small {
+	color: red;
 }
 
-section{
-  margin-bottom: 50px;
+section {
+	margin-bottom: 50px;
 }
 
-.row{
-  height: 100px;
-  align-items: center;
-  padding: 05px 0px 0px 0px;
+.row {
+	height: 100px;
+	align-items: center;
+	padding: 05px 0px 0px 0px;
 }
 
-.box{
-  padding: 0 40px;
-  align-items: center;
+.box {
+	padding: 0 40px;
+	align-items: center;
 }
 
-header{
-  height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+header {
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-header h3{
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 500;
-  margin: 0;
+header h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	margin: 0;
 }
 
-.box input[type ="text"]{
-
-  border: 0;
-  background : none;
-  margin: 2px;
-  text-align: center;
-  border: 2px solid #3498db;
-  padding: 14px 10px;
-  width: 300px;
-  outline: none;
-  border-radius: 24px;
-  transition: 0.25s;
+.box input[type='text'] {
+	border: 0;
+	background: none;
+	margin: 2px;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
 }
 
-.box select{
-  border: 0;
-  background: #191919;
-  margin: 2px;
-  text-align: center;
-  border: 2px solid #3498db;
-  padding: 14px 10px;
-  width: 300px;
-  outline: none;
-  border-radius: 24px;
-  transition: 0.25s;
+.box select {
+	border: 0;
+	background: #191919;
+	margin: 2px;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
 }
 
-.box input[type ="text"]:focus, .box select:focus{
-  width: 450px;
-  border-color: #2ecc73;
+.box input[type='text']:focus,
+.box select:focus {
+	width: 450px;
+	border-color: #2ecc73;
 }
 
-.box button{
-  border: 0;
-  background : none;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid #2ecc71;
-  padding: 14px 40px;
-  width: 150px;
-  outline: none;
-  border-radius: 24px;
-  transition: 0.25s;
-  
+.box button {
+	border: 0;
+	background: none;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	width: 150px;
+	outline: none;
+	border-radius: 24px;
+	transition: 0.25s;
 }
 
-.box button:hover{
-  width: 200px;
-  background: #2ecc73;
-  transition: 0.25s;
+.box button:hover {
+	width: 200px;
+	background: #2ecc73;
+	transition: 0.25s;
 }
 
-.record{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.record {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-table{
-  max-width: 550px;
-  align-items: center;
-  border: none;
-  border-color: #3498db;
-  margin-bottom: 50px;
+table {
+	max-width: 550px;
+	align-items: center;
+	border: none;
+	border-color: #3498db;
+	margin-bottom: 50px;
 }
-#ansCol{
-  max-width: 300px;
-  padding: 0 10px;
+#ansCol {
+	max-width: 300px;
+	padding: 0 10px;
 }
 
-#labelCol{
-  padding: 0 10px;
-  max-width: 250px;
+#labelCol {
+	padding: 0 10px;
+	max-width: 250px;
 }
